@@ -1,0 +1,21 @@
+.card-container_row{
+    align-items: center;
+    gap: 20px;
+}
+
+.card-container_row_image{
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 100px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.col {
+    width: 170px;
+    color: var(--color-gray);
+    cursor: pointer;
+}

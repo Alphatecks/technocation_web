@@ -1,0 +1,46 @@
+.sidebar {
+    height: 100%;
+    width: 70px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: var(--color-bg);
+    overflow-x: hidden;
+    padding-top: 28px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mainbody{
+    margin-left: 70px; /* Same as the width of the sidenav */
+    font-size: 16px; /* Increased text to enable scrolling */
+    padding: 30px 50px 30px 40px;
+  }
+
+  .body-content{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social-icons{
+    color: var(--color-light-gray);
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .social-icons p{
+    font-size: 12px;
+  }
+
+  .mainbody-header h1{
+    font-size: 25px;
+    font-weight:600;
+    color: var(--color-gray);
+  }

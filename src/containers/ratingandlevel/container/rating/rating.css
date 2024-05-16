@@ -1,0 +1,11 @@
+.rating-container{
+    display:flex;
+}
+.rating-input input[type="radio"]{
+    display:none;
+}
+
+.star{
+    transition: color 200ms;
+    cursor: pointer;
+}

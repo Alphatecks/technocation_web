@@ -1,0 +1,11 @@
+.gs-container{
+    height: 100vh;
+    background: var(--color-bg);
+    display: flex;
+    justify-content: center;
+}
+.gs-container_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

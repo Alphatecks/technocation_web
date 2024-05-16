@@ -1,0 +1,59 @@
+#topsearch_slider-container{
+    width: 100%;
+    height: 50px;
+    /* height: 100%; */
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#topsearch-slider{
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    
+}
+
+/* this is to ensure the bar doesn't appear on other browsers */
+#topsearch-slider::-webkit-scrollbar{
+    display: none;
+    
+}
+
+#topsearch_slider-card{
+    width: fit-content;
+    height: 45px;
+    box-shadow: none;
+    padding: 10px 20px;
+    border: 1px solid var(--color-xxlight-gray);
+    background:transparent;
+    cursor:pointer;
+    color: var(--color-gray);
+}
+
+#topsearch_slider-card:hover{
+    background: var(--color-faded-purple) ;
+    border: 1px solid var(--color-light-purple);
+    color: var(--color-light-purple);
+    transition: all ease 0.5s;
+    transform: none; 
+   
+}
+
+.topsearch-slider-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .topsearch-slider-details:hover{
+    color: var(--color-light-purple);
+} */
+
+
+.topsearch-slider-details_title p{
+    font-size: 14px;
+    font-weight: 500;
+}

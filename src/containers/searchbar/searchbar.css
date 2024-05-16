@@ -1,0 +1,27 @@
+.search-container{
+    /* width:500px */
+}
+
+.search-container_row{
+    width:100%;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.search-container_input{
+    width:350px;
+}
+
+
+.search-input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(--color-bg);
+    font-weight:500;
+}
+
+.search-btn{
+    border-radius: 12px;
+}

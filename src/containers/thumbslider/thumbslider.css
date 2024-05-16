@@ -1,0 +1,34 @@
+.thumb-slider {
+  width: 300px; /* Adjust width as needed */
+  margin: 20px;
+  position: relative;
+}
+
+.thumb-slider input[type="range"] {
+  width: 100%;
+  -webkit-appearance: none;
+  background: #d3d3d3;
+  height: 8px;
+  border-radius: 5px;
+  outline: none;
+  margin-top: 20px;
+}
+
+.thumb-slider input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #4caf50;
+  cursor: pointer;
+  position: relative;
+}
+
+.slider-value {
+  position: absolute;
+  top: -30px;
+  display: block;
+  text-align: center;
+  width: 30px;
+}

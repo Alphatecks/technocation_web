@@ -1,0 +1,195 @@
+.profile-page{
+    display: flex;
+    justify-content: space-between;
+}
+.profile{
+    gap: 30px;
+    align-items: center;
+}
+
+.profile-scol2 {
+    color: var(--color-gray);
+}
+
+.profile-scol2_img{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    background-color: #fff;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.profile-scol2 h1{
+    font-size: 30px;
+    font-weight:600;
+    color: var(--color-gray);
+}
+
+.profile-scol2 p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-scol2 p{
+    color: var(--color-light-gray);
+    margin-bottom: 15px;
+}
+
+.profile-scol2_details{
+    background: #fff;
+    border-radius: 25px;
+
+    padding:10px;
+}
+
+.profile-scol2_details-container{
+    background: var(--color-faded-purple);
+
+    padding: 5px 20px;
+    border-radius: 25px;
+    gap: 30px;
+}
+
+.profile-scol2_details-container .col-3{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-scol2_details-container .col-3 p{
+    color: var(--color-light-gray);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.profile-scol2_details-container .col-3 .num-title{
+    color: var(--color-gray);
+    font-size: 30px;
+    font-weight: 600;
+    
+    margin-bottom: 0;
+}
+
+/* Statistics section */
+
+.stats-row{
+    gap: 20px;
+}
+
+.stats .col-3 {
+    width: 32%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 10px;
+    background: #fff;
+    border-radius: 25px;
+}
+
+.stats .col-3 .col-3_img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+
+.stats p{
+    color: var(--color-gray);
+    font-weight: 600;
+}
+
+.stats-count{
+    font-size: 20px;
+}
+
+.stats-head-title{
+    font-weight: 600;
+    font-size: 22px;
+    color: var(--color-gray);
+
+    margin-bottom: 20px;
+}
+
+
+.stats .col-3 .col-3_img .icon{
+    font-size: 25px;
+}
+
+
+
+.achieve-img{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+
+    font-size: 30px;
+}
+
+
+aside{
+    width: 40%;
+}
+
+.suggestion-section {
+    margin-top: 20px;
+}
+
+.suggestion-container{
+    background: #fff;
+    padding: 20px 30px 30px 30px;
+
+    border-radius: 25px;
+}
+
+.friends-pill{
+    justify-content: space-between;
+    align-items: center;
+
+    
+    border-bottom: 0.5px var(--color-xxlight-gray) solid;
+    padding: 10px 0  ;
+}
+
+.friends_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--color-dark-purple);
+}
+
+.friends_name{
+    flex-basis: 60%;
+
+}
+
+.friends_add {
+    background: var(--color-dark-purple) ;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.friends_close-icon {
+    color: var(--color-light-gray);
+    font-size: 30px;
+}
+
+p.friends-link {
+    font-weight: 700;
+    color: var(--color-dark-purple);
+    font-size: 16px;
+}
+
+.suggestion_buttons{
+    display: flex;
+    gap: 20px;
+}
