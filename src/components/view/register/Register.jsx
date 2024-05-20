@@ -5,6 +5,7 @@ import learn from "../../../assets/images/learn.jpg";
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 
 
@@ -54,6 +55,9 @@ const Register = () => {
     const [message, setMessage] = useState('');
     const [error, setError] = useState(null)
 
+    const navigate = useNavigate();
+
+
     const handleSubmit = async (e) => {
       e.preventDefault(); // Prevent default form submission behavior
       setError(null)
@@ -74,10 +78,10 @@ const Register = () => {
       setIsPending(true);
     
        // for POST method
-      const first_name = {firstName}
-      const last_name = {lastName}
-      const nick_name = {nickName}
-      const password = {passwordOne}
+      const first_name = firstName
+      const last_name = lastName
+      const nick_name = nickName
+      const password = passwordOne
 
       
       
@@ -86,43 +90,47 @@ const Register = () => {
       
        const studentRegData = { first_name, last_name, nick_name, email, country, state, password, passwordTwo };
        
-            // another way of consuming this api
-      //  const headers = {
-      //   'Content-Type': 'application/json',
+        // another way of consuming this api
 
-      //   'keep-alive': 'true',
-      //   'x-powered-by': 'Axios',
-      //   // Add any other headers if needed
-      // };
+        // try{
+        //    const { response } = await axios.post('https://api.technocation.space/apis/auth/register_student.php', studentRegData, {
+        //     headers: {
+        //       'Content-Type': 'application/json'
+        //     }
+        //   })
+        //   const { data } = response;
 
+        //   setMessage(data.message);
+        //   navigate("/dashboard");
+        //   // Handle any other logic based on the response here
 
-      //  try{
-      //     const { data } = await axios.post('https://api.technocation.space/apis/auth/register_student.php', studentRegData  ) ;
-
-      //     console.log('data', data);
-      //  }catch (error){
-      //   console.log('error.response', error.response);
-      //  }
+        //   console.log('data', data);
+        // }catch (error){
+        //     setMessage('An error occurred. Please try again.');
+        //     //     console.error('Error:', error);
+        // }
 
 
               // basic way of consuming the api
       
-        fetch('https://api.technocation.space/apis/auth/register_student.php', {
-          method:'POST',
-      //   headers:{"Content-Type": "application/json" },
-          body: JSON.stringify(studentRegData)
-        }) 
-        .then((response) => response.json())
-        .then((data) => {
-          setMessage(data.message);
-          // Handle any other logic based on the response here
-        })
-        .catch((error) => {
-          setMessage('An error occurred. Please try again.');
-          console.error('Error:', error);
-        });
+         fetch('https://api.technocation.space/apis/auth/register_student.php', {
+           method:'POST',
+       //   headers:{"Content-Type": "application/json" },
+           body: JSON.stringify(studentRegData)
+         }) 
+         .then((response) => response.json())
+         .then((data) => {
+           setMessage(data.message);
+           navigate("/dashboard");
+           // Handle any other logic based on the response here
+         })
+         .catch((error) => {
+           setMessage('An error occurred. Please try again.');
+           console.error('Error:', error);
+         });
 
-       
+        
+
       //  console.log(studentRegData);
     };
 

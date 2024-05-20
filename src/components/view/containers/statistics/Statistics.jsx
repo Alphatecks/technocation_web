@@ -134,7 +134,6 @@ const Statistics = () => {
                                 <p className='title'>STUDY TIME</p>
                                 <div>
                                 <div className="slidecontainer">
-                                    <input type="range" min="1" max="100" value="50" className="slider" id="myRange" />
                                     {/* <p>Value: <span id="demo"></span></p> */}
                                     <ThumbSlider/>
                                 </div>
