@@ -1,15 +1,16 @@
-export { default as BoxLayout} from "./boxlayout/BoxLayout"
-export { default as MainLayout} from "./mainlayout/MainLayout"
-export { default as SplitLayout} from "./splitlayout/SplitLayout"
-export { default as ReactCardSlider} from "./reactcardslider/ReactCardSlider"
-export { default as Categories} from "./categories/Categories"
-export {default as MyLearning} from "./mylearning/MyLearning"
-export {default as ProgressBar} from "./progressbar/ProgressBar"
-export { default as SearchBar } from "./searchbar/SearchBar"
-export { default as TopSearch } from "./topsearch/TopSearch"
-export { default as SmallCategories} from "./smallcategories/SmallCategories"
-export { default as RatingAndLevel} from "./ratingandlevel/RatingAndLevel"
-export {default as Card } from "./card/Card"
-export { default as VideoInfo } from "./videoinfo/VideoInfo"
-export {default as Achievements} from "./achievements/Achievements"
-export {default as ThumbSlider} from "./thumbslider/ThumbSlider"
+export { default as BoxLayout } from "./boxlayout/BoxLayout";
+export { default as MainLayout } from "./mainlayout/MainLayout";
+export { default as SplitLayout } from "./splitlayout/SplitLayout";
+export { default as ReactCardSlider } from "./reactcardslider/ReactCardSlider";
+export { default as Categories } from "./categories/Categories";
+export { default as MyLearning } from "./mylearning/MyLearning";
+export { default as ProgressBar } from "./progressbar/ProgressBar";
+export { default as SearchBar } from "./searchbar/SearchBar";
+export { default as TopSearch } from "./topsearch/TopSearch";
+export { default as SmallCategories } from "./smallcategories/SmallCategories";
+export { default as RatingAndLevel } from "./ratingandlevel/RatingAndLevel";
+export { default as Card } from "./card/Card";
+export { default as VideoInfo } from "./videoinfo/VideoInfo";
+export { default as Video } from "./videocontainer/Video";
+export { default as Achievements } from "./achievements/Achievements";
+export { default as ThumbSlider } from "./thumbslider/ThumbSlider";

@@ -1,80 +1,80 @@
-.reg-container{
-    /* height: 100vh; */
-    padding: 90px 0;
-    background: var(--color-bg);
-    display: flex;
-    justify-content: center;
+.reg-container {
+  /* height: 100vh; */
+  padding: 90px 0;
+  background: var(--color-bg);
+  display: flex;
+  justify-content: center;
 }
-.reg-container_wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.reg-container_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.register-form-container{
-    max-width: 400px;
-    width: 100%;
-    margin: 50px auto;
-    padding: 20px;
-    
+.register-form-container {
+  max-width: 400px;
+  width: 100%;
+  margin: 50px auto;
+  padding: 20px;
 }
 .form-group {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .form-group label {
-    font-size: 14px;
-    font-weight: 600;
-    color: var(--color-gray);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-gray);
 }
 
-.login-text{
-    margin-top: 10px;
-    font-size: 12px;
-    
+.login-text {
+  margin-top: 10px;
+  font-size: 12px;
 }
 
-.login-text span{
-    color: var(--color-dark-purple);
-    font-weight: bolder;
+.login-text span {
+  color: var(--color-dark-purple);
+  font-weight: bolder;
 }
 
-.form-group input, .form-group select {
-    width: 100%;
-    padding: 16px 12px;
-    font-size: 0.9rem;
-    border: 1px solid #ccccccac;
-    outline: none;
-    border-radius: 8px;
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 16px 12px;
+  font-size: 0.9rem;
+  border: 1px solid #ccccccac;
+  outline: none;
+  border-radius: 8px;
 }
 .btn-container {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 300px;
 }
 .btn {
-    padding: 10px 30px;
-    background-color: transparent;
-    color: var(--color-dark-purple);
-    border: none;
-    border-bottom: 2px solid transparent;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: all 0.5s ease;
+  padding: 10px 30px;
+  background-color: transparent;
+  color: var(--color-dark-purple);
+  border: none;
+  border-bottom: 2px solid transparent;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.5s ease;
 }
 
 .btn.active {
-    /* color: #fff; */
-    /* background-color: var( --color-dark-purple ) ; */
-    border: 1px solid var(--color-dark-purple);
-    transition: all ease 0.5s;
+  /* color: #fff; */
+  /* background-color: var( --color-dark-purple ) ; */
+  border: 1px solid var(--color-dark-purple);
+  transition: all ease 0.5s;
 }
 
-.login-form h2 , .registration-form h2{
-    margin: 15px 0;
-    color: var(--color-gray);
+.login-form h2,
+.registration-form h2 {
+  margin: 15px 0;
+  color: var(--color-gray);
 }
 
-.rlink span{
-    text-decoration: underline;
+.rlink span {
+  text-decoration: underline;
 }
